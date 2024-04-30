@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Sign up</h1>
+  <form id = sign_up_form>
+    <h3>Username:</h3>
+    <input id = "sign_up_username" placeholder="username" required />
+    <h3>Password:</h3>
+    <input id = "sign_up_password" placeholder="password" required />
+    <h3>Email:</h3>
+    <input id = "sign_up_email" placeholder="email" required />
+    <h3></h3>
+    <button class="normalButton" type="submit">Create account</button>
+  </form>
+  <h3>Already have an account?</h3>
+  <button class="normalButton"><a href = "index.html">Log in to an existing account</a></button>
+  <script type = "module" src="firestore.js"></script>
+  <script type="module" src="signup.js"></script>
+</body>
+
+</html>

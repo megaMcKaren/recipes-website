@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.invisible {
+  display: none;
+}
+
+.normalButton {
+  margin: 2px;
+  color: black;
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  transition: transform 2s;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1:hover{
+  border-bottom: 5px solid black;
+  transform: translateY(-3.75px);
+  cursor: pointer;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
